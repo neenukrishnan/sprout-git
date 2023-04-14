@@ -2685,7 +2685,10 @@ button{
         margin-left: 29%;
     }
         .product_list{
-            margin-top: 16%;
+            margin-top: 24%;
+        }
+        .product_head p{
+            padding-top: 13%;
         }
         .product_biodegradablepapper_section1 .row .col-5{
             width: -webkit-fill-available !important;
@@ -2903,6 +2906,9 @@ button{
             margin-right: -4% !important;
             padding-top: 10%;
         } 
+        #column-reverses{
+            flex-direction: column-reverse !important;
+        }
     }
     @media only screen and (max-width: 768px) {
         .tab_content_heading{
