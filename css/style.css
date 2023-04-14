@@ -3257,7 +3257,14 @@ button{
     text-align: center;
         }
         .contact_section_new {
-            margin-top: 15%;
+            margin-top: 16%;
+            padding-bottom: 5%;
+        }
+        .contact_detail_head {
+            font-size: 45px;
+        }
+        .contact_container_new{
+            padding-top: 10%;
         }
         .brand_logo_column img {
             margin-left: -58%;
