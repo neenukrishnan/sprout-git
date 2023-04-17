@@ -2522,6 +2522,18 @@ button{
 .sustainable-para{
     padding-top: 5%;
 }
+.process-container{
+    margin-top: 5%;
+}
+.process-container img{
+    width: 100%;
+}
+.process-head{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(168,141,106);
+}
  /* MEDIA QUERY */
 
  
