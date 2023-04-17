@@ -1774,6 +1774,7 @@ padding-bottom: 3%;
     background-size: cover;
     background-position: center;   
     padding-bottom: 3%;
+    
    }
 .impact_on_environment_straws{
     background-image: url(../images/custom_print_straw.png);
@@ -2518,7 +2519,9 @@ button{
 .brand_card_container img{
     width: 100%;
 }
-
+.sustainable-para{
+    padding-top: 5%;
+}
  /* MEDIA QUERY */
 
  
