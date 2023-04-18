@@ -1721,7 +1721,7 @@ padding-bottom: 3%;
     font-weight: bold;
 }
 .sprout_envrmnt_containers{
-    padding-top:44%;
+    padding-top:33%;
     padding-left: 53%;
     color: white;
     font-weight: bold;
@@ -1773,14 +1773,13 @@ padding-bottom: 3%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-   
-padding-bottom: 3%;
+    padding-bottom: 3%;
    }
    .impact_on_environment_bwl{
     background-image: url(../images/food-container-card.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;   
+    background-size: contain;
+    background-position: center;
     padding-bottom: 3%;
     
    }
