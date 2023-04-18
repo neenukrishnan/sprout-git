@@ -1355,10 +1355,10 @@ text-align: justify;
     padding-top: 2%;
     padding-bottom: 1%;
 }
-.product_bag_card .col-4{
+/* .product_bag_card .col-4{
     padding-top: 2%;
     padding-bottom: 1%;
-}
+} */
 .get_quote{
     font-size: 12px;
     border-radius: 12px;
@@ -1648,7 +1648,7 @@ line-height: 16px;
 .single_wall{
 
  
-background-image: url("../images/card_single_wall.png");
+background-image: url("../images/single-cup.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -1661,6 +1661,7 @@ padding-bottom: 3%;
     padding-top: 37%;
     padding-left: 47%;
     color: white;
+    font-weight: bold;
 }
 
     
@@ -1671,7 +1672,7 @@ padding-bottom: 3%;
 
 
 .double_wall{
-    background-image: url("../images/card_double_wall.png");
+    background-image: url("../images/double-cup.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1679,7 +1680,7 @@ padding-bottom: 3%;
 padding-bottom: 3%; 
 }
 .ripple_wall{
-    background-image: url("../images/card_ripple.png");
+    background-image: url("../images/ripple-cup.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1688,7 +1689,7 @@ padding-bottom: 3%;
 }
 
 .empossed_wall{
-    background-image: url("../images/sprout\ web\ img-11.png");
+    background-image: url("../images/embossed-cup.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1696,7 +1697,7 @@ padding-bottom: 3%;
 padding-bottom: 3%; 
 }
 .custom_print{
-    background-image: url("../images/sprout\ web\ img-14.png");
+    background-image: url("../images/custom-cup.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1714,12 +1715,19 @@ padding-bottom: 3%;
 padding-bottom: 3%;  
 }
 .sprout_envrmnt{
-    padding-top: 39%;
+    padding-top: 34%;
     padding-left: 53%;
     color: white;
+    font-weight: bold;
+}
+.sprout_envrmnt_containers{
+    padding-top:44%;
+    padding-left: 53%;
+    color: white;
+    font-weight: bold;
 }
 .sprt_bag_final {
-  
+  margin-left: 10%;
     font-size: 10px;
 }
 .impact_on_environment_paper{
@@ -1761,7 +1769,7 @@ padding-bottom: 3%;
 padding-bottom: 3%;
    }
    .impact_on_bwl{
-    background-image: url(../images/food_paper.png);
+    background-image: url(../images/soup-bowl-card.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1769,7 +1777,7 @@ padding-bottom: 3%;
 padding-bottom: 3%;
    }
    .impact_on_environment_bwl{
-    background-image: url(../images/food\ paper2.png);
+    background-image: url(../images/food-container-card.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;   
@@ -1817,17 +1825,7 @@ padding-bottom: 3%;
     margin-bottom: 0% !important;
     padding-bottom: 0% !important;
 }
-/* media queries */
 
-
-
-
-
-
-
-
-
-/* media queries */
 
 
 /* index banner */ 
