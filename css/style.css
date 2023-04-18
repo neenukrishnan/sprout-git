@@ -2534,6 +2534,9 @@ button{
     font-weight: bold;
     color: rgb(168,141,106);
 }
+.product-range-container img{
+    width: 100%;
+}
  /* MEDIA QUERY */
 
  
