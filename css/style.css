@@ -3099,6 +3099,9 @@ button{
     .bio_product_col_one_head {
         font-size: 37px;
     }
+    .brand_page_section{
+        margin-top: 12.9%;
+    }
     }
     
     @media only screen and (max-width:768px){  
@@ -3981,4 +3984,75 @@ transform: translateY(-50%);
 #with-love{
     font-size: 30px !important;
     color: rgb(168,141,106);
+}
+
+
+/*newspage*/
+.our_blog h2{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.card-titles{
+    font-size: 17px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+.card-texts{
+    font-size: 15px;
+    text-align: left;
+    color: black;
+}
+.blog_dailyupdate{
+    padding-left: 8%;
+}
+.card-texts a{
+    color: black;
+}
+.social_service{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.inaguration_member{
+    padding-left: 9%;
+}
+/*newspage2*/
+@media only screen and (max-width: 500px) {
+    .social_service{
+        font-size: 18px;
+    }
+    .newspage img{
+        width: 100%;
+        padding-top: 3%;
+    }
+}
+@media only screen and (max-width: 912px) {
+    .social_service{
+        font-size: 18px;
+    }
+    .newspage img{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .newspage img{
+        width: 100%;
+    }
+}
+/*newspage3*/
+@media only screen and (max-width: 540px) {
+    .blog_page2{
+        padding-top: 12%;
+    }
+}
+/*newspage4*/
+@media only screen and (max-width: 540px) {
+.certificate_blog {
+    
+    padding-top:13%;
+}
 }
