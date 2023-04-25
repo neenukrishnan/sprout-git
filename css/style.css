@@ -1226,7 +1226,7 @@ padding-bottom: 2%;
    
 }
 .greenpack{
-    margin-top: 5%;
+    margin-top: 3%;
     padding-top: 5%;
     background-color: #fafafa;
     border-radius: 90px;
@@ -1284,9 +1284,10 @@ padding-top: 12% !important;
     padding-bottom: 5%; 
 }
 .biodegradable_paper_bags{
+    margin-top: 3%;
     padding-top: 5%;
     background-color: #fafafa;
-    border-radius: 20px;
+    border-radius: 90px;
     padding-top: 3% !important;  
 }
 .plates{
@@ -1304,15 +1305,17 @@ padding-top: 12% !important;
 }
  
 .biodegradable_paper_straws{
+    margin-top: 3%;
     padding-top: 5%;
     background-color: #fafafa;
-    border-radius: 20px;
+    border-radius: 90px;
     padding-top: 3% !important;  
 }
 .biodegradable_Greenpak_Paper{
+    margin-top: 3%;
     padding-top: 5%;
     background-color: #fafafa;
-    border-radius: 20px;
+    border-radius: 90px;
     padding-top: 3% !important;  
 }
 .Aqueous_Barrier{
@@ -1328,15 +1331,17 @@ padding-top: 12% !important;
 }
 
 .Food_Paper_Container{
+    margin-top: 3%;
     padding-top: 5%;
     background-color: #fafafa;
-    border-radius: 20px;
+    border-radius: 90px;
     padding-top: 3% !important;  
 }
 .Paper_Banana_Leaf{
+    margin-top: 3%;
     padding-top: 5%;
     background-color: #fafafa;
-    border-radius: 20px;
+    border-radius: 90px;
     padding-top: 3% !important;   
 }
 .Paper_Banana{
@@ -2490,7 +2495,7 @@ font-weight: 600;
 .coffecups-section{
     margin-top: 4%;
     background-color: #fafafa;
-    border-radius: 70px;
+    border-radius: 90px;
     padding-bottom: 2%;
 }
 .coffecups-image img{
@@ -3081,7 +3086,7 @@ button{
         width: -webkit-fill-available !important;
     }
     .quck_product {
-        padding-top: 21%;
+        padding-top: 40%;
     }
     .plates{
         text-align: center;
