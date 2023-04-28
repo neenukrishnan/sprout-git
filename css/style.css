@@ -29,7 +29,7 @@ p{
     box-shadow: none !important;
 }
 #logo_style{
-    width: 10%;
+    width: 8%;
 }
 .nav_green{
     background-color: #233C36; 
@@ -113,7 +113,7 @@ padding-bottom: 0% !important;
 }
 .tab_column_content{
     padding-top: 12%;
-    background-color: #a31f1f;
+    background-color: #fafafa;
     border-radius: 90px;
     padding: 4%;
     text-align: justify;
@@ -244,7 +244,7 @@ color: white;
 .bio_product_section{
     
 
-    margin-top: .1% !important;
+    margin-top: 1% !important;
     margin-left: .5%;
     margin-right: .5%;
 border-radius: 50px;
@@ -2696,6 +2696,10 @@ button{
     }
     
     @media only screen and (max-width:992px){
+        .article{
+            margin-left: 4%;
+            margin-right: 4%;
+        }
         .product_specification_button{
         font-size: 15px;
     }
@@ -4074,4 +4078,7 @@ transform: translateY(-50%);
     
     padding-top:13%;
 }
+}
+.article{
+    margin-top: 10%;
 }
