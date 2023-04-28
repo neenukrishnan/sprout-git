@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,20 +20,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     
-    <!--fontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+     <!--fontawesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!--styleSheet-->
     <link rel="stylesheet" href="css/style.css">
+
+
+    
 </head>
 <body>
-<!-- NAVBAR -->
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top nav_green" id="nav_bar">
         <div class="container">
           <img src="images/logo_white.webp" id="logo_style" href="index.html"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="bi bi-list"></i>
+            <i class="bi bi-list" id="hamber_color"></i>
       
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -41,11 +47,11 @@
                 <a class="nav-link" aria-current="page" href="index.html">HOME</a>
               </li>
               <li class="nav-item rounded">
-                <a class="nav-link" href="who_we_are.html">WHO WE ARE</a>
+                <a class="nav-link active_index" href="who_we_are.html">WHO WE ARE</a>
               </li>
               
               <li class="nav-item rounded">
-                <a class="nav-link" href="responsibility.html">WHAT WE DO</a>
+                <a class="nav-link" href="what_we_do.html">WHAT WE DO</a>
               </li>
               <li class="nav-item rounded">
                 <a class="nav-link" href="product.html">OUR PRODUCTS </a>
@@ -54,7 +60,7 @@
                 <a class="nav-link" href="Responsibility.html">RESPONSIBILITY</a>
               </li>
               <li class="nav-item rounded">
-                <a class="nav-link active_index" href="contact.html">CONTACT US</a>
+                <a class="nav-link" href="contact.html">CONTACT US</a>
               </li>
               <li class="nav-item rounded">
                 <a class="nav-link" href="#">NEWS</a>
@@ -63,19 +69,19 @@
           </div>
         </div>
     </nav>
-    <!--blog section-->
-    <section class="latest_blogs">
+<!--blog section-->
+<section class="latest_blogs">
     <div class="our_blog">
         <h2>LATEST NEWS
         </h2>
       </div>
       
-        <div class="container dayliy_updates ">
+        <div class="container  dayliy_updates ">
          
-            <div class="row blog_dailyupdate">
+            <div class="row  blog_dailyupdate">
             <div class="col-6">
              <div class="card_newspage" style="width: 30rem; border-radius: 14px;">
-            <img class="card-img-top" src="images/newspage2.jpg" alt="Card image cap">
+            <img class="card-img-top" src="images/newspage2.jpeg" alt="Card image cap">
             <div class="card-body">
                 <p class="blog_date">AUGUST 2022</p>
               <h5 class="card-titles">VIJAYAPURAM SOCIAL SERVICE SOCIETY COLLABORATES WITH STARTUPS TO PROMOTE 
@@ -92,7 +98,7 @@
         
         <div class="col-6">
             <div class="card_newspage" style="width: 30rem; border-radius: 14px;">
-                <img class="card-img-top" src="images/certificatehalf.jpeg.jpg" alt="Card image cap">
+                <img class="card-img-top" src="images/certificatehalf.jpeg" alt="Card image cap">
                 <div class="card-body">
                   <p class="blog_date">JANUARY 2020</p> 
                   <h5 class="card-titles">KERALA VYAPARI VYAVASAYI EKOPANA SAMITHI 
@@ -121,7 +127,9 @@
                   <h5 class="card-titles">പേപ്പർ കപ്പിൽ തന്നെ മതി എന്ന് പറയുന്നവരാണോ? എങ്കിൽ ഇത് കാണാതെ പോകരുത് | Quppi
                 </h5>
                   <p class="card-texts"><a href="https://www.youtube.com/watch?fbclid=IwAR2u81P_Wpu9-7l-9Hdj30flMIbPQXKN27tC03DffUc0eQtIYqczgTDVSmY&v=kyBHGTabwME&feature=youtu.be">
-                   
+                    https://www.youtube.com/watch?fbclid=IwAR2u81P_Wpu9-7l-
+                    9Hdj30flMIbPQXKN27tC03DffUc0eQtIYqczgTDVSmY&v
+                    =kyBHGTabwME&feature=youtu.be
                   </a>
                     </p>
                  
@@ -136,7 +144,8 @@
                       <h5 class="card-titles">ആരോഗ്യത്തെ ചൊല്ലി ആശങ്ക വേണ്ട;പ്ലാസ്റ്റിക് കോട്ടിംങ്ങ്് ഇല്ലാതെ പേപ്പര്‍ കപ്പുകള്‍ | Paper Cup
                     </h5>
                     <p class="card-texts"><a href="https://www.youtube.com/watch?fbclid=IwAR2LHvbGkCPK0YCd6OP0yYVZ4ZLd_5hDPxXTD9K__Txz6Osv2g95R5pSTAs&v=w4vsj5xrpaE&feature=youtu.be">
-                        </a></p>
+                        https://www.youtube.com/watch?fbclid=IwAR2LHvbGkCPK0YCd6OP0yYVZ4ZLd_5hDPxXTD9K__
+                        Txz6Osv2g95R5pSTAs&v=w4vsj5xrpaE&feature=youtu.be"</a></p>
                        
                      
                     </div>
@@ -225,7 +234,156 @@
             </div>
 
 
-        
-        </section>
-       
+            <div class="row blog_dailyupdate">
+              <div class="col-6">
+          <div class="card_newspage" style="width: 30rem; border-radius: 14px;">
+              <img class="card-img-top" src="images/strew.png" alt="Card image cap">
+              <div class="card-body">
+                  
+                <h5 class="card-titles">India has imposed a ban on single-use plastic to tackle pollution
+                  
+              </h5>
+              <p class="card-texts"><a href="https://www.weforum.org/agenda/2022/07/india-ban-policy-single-use-plastic-pollution">
+                https://www.weforum.org/agenda/2022/07/india-ban-policy-single-use-plastic-pollution
+              </a>
+                </p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card_newspage" style="width: 30rem; border-radius: 14px;">
+                <img class="card-img-top" src="images/waste.png" alt="Card image cap">
+                <div class="card-body">
+                  
+                  <h5 class="card-titles">In Kerala, ban on single-use plastic from July 1
+                    
+                </h5>
+                <p class="card-texts"><a href=https://www.thehindu.com/news/national/kerala/in-kerala-ban-on-single-use-plastic-from-tomorrow/article65582512.ece">
+                  https://www.thehindu.com/news/national/kerala/in-kerala-ban-on-single-use-plastic-from-tomorrow/article65582512.ece
+                </a>
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row blog_dailyupdate">
+            <div class="col-6">
+        <div class="card_newspage" style="width: 30rem; border-radius: 14px;">
+            <img class="card-img-top" src="images/" alt="Card image cap">
+            <div class="card-body">
+                
+              <a href="https://www.youtube.com/watch?v=dVbXGsOQ7DM"><h5 class="card-titles">നമ്മളെല്ലാം പ്ലാസ്റ്റിക്കാണ്‌‌ കുടിക്കുന്നതെന്ന് പറഞ്ഞാൽ വിശ്വസിക്കുമോ.?കണ്ടുനോക്കു |Sprout Eco cups
+                
+            </h5>
+            <p class="card-texts">
+              https://www.youtube.com/watch?v=dVbXGsOQ7DM
+            </a>
+              </p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card_newspage" style="width: 30rem; border-radius: 14px;">
+              <img class="card-img-top" src="images/ban_news.png" alt="Card image cap">
+              <div class="card-body">
+                
+                <a href="https://timesofoman.com/article/125120-ban-on-imported-plastic-bags-to-help-in-safeguarding-omans-environment"> <h5 class="card-titles">‘Ban on imported plastic bags to help in safeguarding Oman’s environment’
+              </h5>
+              <p class="card-texts">
+                https://timesofoman.com/article/125120-ban-on-imported-plastic-bags-to-help-in-safeguarding-omans-environment
+              </a>
+                </p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row blog_dailyupdate">
+          <div class="col-6">
+      <div class="card_newspage" style="width: 30rem; border-radius: 14px;">
+          <img class="card-img-top" src="images/coffe_news.png" alt="Card image cap">
+          <div class="card-body">
+              
+            <h5 class="card-titles">IIT study cites risk of plastic contamination in drinking tea 
+              from disposable paper cups
+              
+          </h5>
+          <p class="card-texts"><a href="https://www.thehindu.com/news/national/other-states/iit-study-cites-risk-of-plastic-contamination-in-drinking-tea-from-disposable-paper-cups/article33052195.ece?fbclid=IwAR1Hdbr0juQr046Vv0c9QQJHKbRFM9jxOuTxLDjxAIRoDkpBeHnYyRH5vR8">
+            https://www.thehindu.com/news/national/other-states/iit-study-cites-risk-of-plastic-contamination-in-
+            drinking-tea-from-disposable-paper-cups/article33052195.ece?
+            fbclid=IwAR1Hdbr0juQr046Vv0c9QQJHKbR<br>
+            FM9jxOuTxLDjxAIRoDkpBeHnYyRH5vR8
+          </a>
+            </p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card_newspage" style="width: 30rem; border-radius: 14px;">
+            <img class="card-img-top" src="images/microsoft.png" alt="Card image cap">
+            <div class="card-body">
+              
+              <h5 class="card-titles">Microplastics revealed in the placentas of unborn babies
+                
+            </h5>
+            <p class="card-texts"><a href="https://www.theguardian.com/environment/2020/dec/22/microplastics-revealed-in-placentas-unborn-babies?fbclid=IwAR2u81P_Wpu9-7l-9Hdj30flMIbPQXKN27tC03DffUc0eQtIYqczgTDVSmY">
+              https://www.theguardian.com/environment/2020/dec/22/microplastics-revealed-in-placentas-unborn-babies?fbclid=IwAR2u81P_Wpu9-7l-9Hdj30flMIbPQXKN27tC03DffUc0eQtIYqczgTDVSmY
+            </a>
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row blog_dailyupdate">
+        <div class="col-6">
+    <div class="card_newspage" style="width: 30rem; border-radius: 14px;">
+        <img class="card-img-top" src="images/drinking.png" alt="Card image cap">
+        <div class="card-body">
             
+          <h5 class="card-titles">Drinking coffee from a paper cup releases thousands of microplastics, study suggests
+            
+        </h5>
+        <p class="card-texts"><a href="https://www.telegraph.co.uk/news/2020/11/19/drinking-coffee-paper-cup-releases-thousands-microplastics-study/?fbclid=IwAR3E9UA8L5td8HO-Lbu7P9bvkKfRiG8GprIGyGSTT7O4eKm9FbvUnuRfmDk">
+          https://www.telegraph.co.uk/news/2020/11/19/drinking-coffee-paper-cup-releases-thousands-microplastics-study/?fbclid=IwAR3E9UA8L5td8HO-Lbu7P9bvkKfRiG8GprIGyGSTT7O4eKm9FbvUnuRfmDk
+        </a>
+          </p>
+         
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="card_newspage" style="width: 30rem; border-radius: 14px;">
+          <img class="card-img-top" src="images/" alt="Card image cap">
+          <div class="card-body">
+            
+            <h5 class="card-titles">
+              
+          </h5>
+          <p class="card-texts"><a href="https://www.theguardian.com/environment/2020/dec/22/microplastics-revealed-in-placentas-unborn-babies?fbclid=IwAR2u81P_Wpu9-7l-9Hdj30flMIbPQXKN27tC03DffUc0eQtIYqczgTDVSmY">
+            https://www.theguardian.com/environment/2020/dec/22/microplastics-revealed-in-placentas-unborn-babies?fbclid=IwAR2u81P_Wpu9-7l-9Hdj30flMIbPQXKN27tC03DffUc0eQtIYqczgTDVSmY
+          </a>
+            </p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="nespagecontents.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="nespagecontent2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+        </section>
+        
