@@ -29,7 +29,7 @@ p{
     box-shadow: none !important;
 }
 #logo_style{
-    width: 8%;
+    width: 12%;
 }
 .nav_green{
     background-color: #233C36; 
@@ -52,6 +52,12 @@ p{
 #hamber_color{
     color: white !important;
 }
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+    }
 /* what_we_do */
 .tab_content_section_what_we_do{
     margin-top: 10.5%;
@@ -2309,7 +2315,7 @@ font-weight: 600;
    
   }
   .logo-tagline img {
-    width: 30%;
+    width: 60%;
   }
   
   .tagline {
@@ -3860,8 +3866,8 @@ transform: translateY(-50%);
     width: 50% !important;
    
     position: absolute;
-top: 74%;
-left: 51%;
+top: 80%;
+left: 55.5%;
 -ms-transform: translateY(-50%);
 -webkit-transform: translateY(-50%);
 -moz-transform: translateY(-50%);
@@ -3875,6 +3881,18 @@ transform: translateY(-50%);
     position: absolute;
 top: 86%;
 left: 9%;
+-ms-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+transform: translateY(-50%);
+  }
+  .banner-content_five{
+    width: 50% !important;
+   
+    position: absolute;
+top: 84% !important;
+left: 10% !important;
 -ms-transform: translateY(-50%);
 -webkit-transform: translateY(-50%);
 -moz-transform: translateY(-50%);
@@ -3906,9 +3924,46 @@ transform: translateY(-50%);
     border-radius: 10px;
 }
 
+.banner-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .banner-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .banner-button:hover span {
+    padding-right: 25px;
+  }
+  
+  .banner-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 @media only screen and (max-width: 768px) {
+
+    .teamCard {
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 52% !important;
+        padding-bottom: 10% !important;
+        padding-left: 3%;
+        padding-right: 1%;
+        width: -webkit-fill-available !important;
+    }
+ 
+    
+    
     .home_slider_new{
-        margin-top: 34% !important;
+        margin-top: 21% !important;
     }
     .banner-content p{
         padding-top: 10%;
@@ -3916,6 +3971,9 @@ transform: translateY(-50%);
     }
     .banner-button{
         font-size: 12px;
+    }
+    .carousel-indicators{
+        bottom: -28px !important;
     }
 }
 @media only screen and (max-width: 612px) {
