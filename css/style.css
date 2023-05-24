@@ -126,6 +126,9 @@ background-color: white;
     transition: opacity .6s ease;
     border-radius: 71% !important;
 }
+.carousel-indicators{
+    bottom: 73px !important;
+}
 .headlogo img{
    width: 50%;
    border-top-left-radius: 41px;
@@ -3891,8 +3894,8 @@ transform: translateY(-50%);
     width: 50% !important;
    
     position: absolute;
-top: 80%;
-left: 53.7%;
+top: 73%;
+left: 50.7%;
 -ms-transform: translateY(-50%);
 -webkit-transform: translateY(-50%);
 -moz-transform: translateY(-50%);
@@ -3905,7 +3908,7 @@ transform: translateY(-50%);
    
     position: absolute;
 top: 86%;
-left: 9%;
+left: 14%;
 -ms-transform: translateY(-50%);
 -webkit-transform: translateY(-50%);
 -moz-transform: translateY(-50%);
