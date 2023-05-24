@@ -75,8 +75,8 @@ background-color: white;
     text-transform: capitalize !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-top: 5px !important;
+    padding-bottom: 4px !important;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
    
