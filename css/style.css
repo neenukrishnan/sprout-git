@@ -1942,14 +1942,14 @@ padding-top: 3%;
 }
 
 /* new index */
-
+/*
 .what_is_sprout{
     background-image: url("../images/what_sprout_banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
-  }  
+  }  */
     .sprout-col-container-one{
       background-color: white;     
       border-radius: 70px;     
@@ -3908,7 +3908,7 @@ transform: translateY(-50%);
    
     position: absolute;
 top: 86%;
-left: 14%;
+left: 17%;
 -ms-transform: translateY(-50%);
 -webkit-transform: translateY(-50%);
 -moz-transform: translateY(-50%);
