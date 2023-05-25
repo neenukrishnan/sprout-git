@@ -2436,13 +2436,7 @@ font-weight: 600;
 .why-us-container{
     margin-bottom: 7%;
 }
-.plastic-free-card{     
-    background:url("../images/card-plastic.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-       
-}
+
 .plastic-free-content{
   padding-top: 20.5%;
   padding-left: 20% !important;
@@ -2468,6 +2462,7 @@ font-weight: 600;
     padding-left: 9%;
     padding-bottom: 8%;
 }
+/*
 .microwavable-card{
     background:url("../images/card-microwavable.png");
     background-repeat: no-repeat;
@@ -2509,7 +2504,7 @@ font-weight: 600;
     background-size: cover;
     color: white;
     
-}
+} */
 
 .quotes_color{
     color: #233C36;
