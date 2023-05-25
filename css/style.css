@@ -682,7 +682,12 @@ padding-left: 6%;
 .what_is_sprout{
 font-size: 50px;
 font-weight: lighter;
-margin-top: 1%;
+
+margin-top: 1% !important;
+    margin-left: .5%;
+    margin-right: .5%;
+  border-radius: 50px;
+  background-color:white;
 
 }
 .sprout{
@@ -1988,10 +1993,12 @@ padding-top: 3%;
     }
     .sprout-col-what{
         font-size: 36px;
-    }
+    }  
     .sprout-col-what span{
         font-weight: bold;
+        color:#6fa852;
     }
+    
     .sprout-col-what-content{
         font-size: 16px !important;
         text-align: justify;
