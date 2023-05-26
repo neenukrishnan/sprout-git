@@ -1417,6 +1417,25 @@ text-align: justify;
     border-radius: 12px;
     font-weight: bold;
 }
+.brand-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .brand-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .brand-button:hover span {
+    padding-right: 25px;
+  }
 #brand-button{
     text-transform: capitalize;
 }
@@ -2252,6 +2271,7 @@ padding-bottom: 3%;
 }
 .Reassuring{
     font-size: 16px;
+    text-align: justify;
 }
 
 .sustainable_head{
