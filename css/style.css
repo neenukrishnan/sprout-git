@@ -2667,19 +2667,19 @@ button{
         .what_is_sprout{
             background-size: contain;
         }
-        .what-is-sprout-container {
+       /* .what-is-sprout-container {
             padding-top: 8% !important;
             
-        }
+        }*/
         .sprout-col-container-one{
             max-width: 1680px !important;
         }
-        .earth-col img {
+      /*  .earth-col img {
             text-align: center;
             width: 39%;
           
             margin-left: 23%;
-    }
+    }*/
     }
     @media only screen and (min-width:1600px){
         .what_is_sprout_second_col img{
