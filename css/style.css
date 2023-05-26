@@ -2444,23 +2444,24 @@ font-weight: 600;
 }
 
 .plastic-free-content{
-  padding-top: 20.5%;
-  padding-left: 20% !important;
+  padding-top: 0.5%;
+  /*padding-left: 20% !important; */
   font-size: 13px;
 }
 .plastic-free-content img{
     width: 40%; 
-    margin-left:35%;
+   /* margin-left:35%;*/
 }
+
 .plastic-free-contents{
     padding-top: 20.5%;
     padding-left: 20% !important;
     font-size: 13px;
   }
 .card-content-head{
-    padding-left: 15%;
+  /*  padding-left: 15%; */
   font-size: 16px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .cards-contents{
     font-size: 15px;
