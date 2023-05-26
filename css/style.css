@@ -64,7 +64,7 @@ p{
     }
 /* what_we_do */
 .tab_content_section_what_we_do{
-    margin-top: 10.5%;
+    margin-top: 11.5%;
      margin-left: .5%;
     margin-right: .5%;
 border-radius: 110px;
@@ -1485,7 +1485,7 @@ text-align: justify;
 
 /* who we are */
 .tab_content_section{
-    margin-top: 10.5%;
+    margin-top: 11%;
     margin-left: .5%;
     margin-right: .5%;
 border-radius: 110px;
@@ -2985,7 +2985,7 @@ button{
             border-radius: 40px;
         }
         .tab_content_section {
-            margin-top: 12%;
+            margin-top: 13%;
         }
         .container .paragraph_row .col-5{
             width: -webkit-fill-available !important;
@@ -3016,7 +3016,7 @@ button{
             text-align: center !important;
         }
         .tab_content_section {
-            margin-top: 11.5%;
+            margin-top: 12%;
         }
         .res_hed{
             padding-top: 0% !important;
@@ -3339,7 +3339,7 @@ button{
     }
     @media only screen and (max-width: 713px) {
         .tab_content_section_what_we_do{
-            margin-top: 15.5%;
+            margin-top: 16%;
            
         }
         .contact_section_new {
@@ -3360,7 +3360,7 @@ button{
             font-size: 30px;
         }
         .tab_content_section {
-            margin-top: 24%;
+            margin-top: 25%;
         }
         .brand_page_section{
             margin-top: 24%;
@@ -3525,13 +3525,13 @@ button{
         }
     @media only screen and (max-width: 1049px) and (min-width:790px) {
         .tab_content_section_what_we_do{
-            margin-top: 12.9%;
+            margin-top: 13.9%;
            
         }
     }
     @media only screen and (max-width: 790px) and (min-width:713px) {
         .tab_content_section_what_we_do{
-            margin-top: 13.5%;
+            margin-top: 14.5%;
            
         }
         .contact_section_new {
