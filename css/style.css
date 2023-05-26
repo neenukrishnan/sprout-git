@@ -1964,10 +1964,9 @@ padding-top: 3%;
       border-radius: 70px;     
       padding-top: 3%;       
     }
-    .earth-col img{
-      text-align: center;
-      width: 80%;     
-      padding-top: 10%;
+    .earth-col img{     
+        width: 100%;
+        border-radius: 34px;
     }
     .earth-col p{
       text-align: justify;
