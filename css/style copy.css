@@ -147,9 +147,9 @@ padding-bottom: 0% !important;
 }
 .tab_column_content{
     padding-top: 12%;
-    background-color: #fafafa;
-    margin-right: -8.2% !important; 
- 
+   /* background-color: #fafafa;
+    margin-right: -8.2% !important; */
+   background-color: #255645;
     border-radius: 90px;
     padding: 4%;
     text-align: justify;
