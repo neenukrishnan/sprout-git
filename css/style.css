@@ -95,7 +95,7 @@ background-color: white;
 }
 .tab_span:hover {
     text-transform: capitalize !important;
-    border: 1px solid !important;
+   
     background:#368129 !important;
     color:white !important;
    padding-left: 3%;
