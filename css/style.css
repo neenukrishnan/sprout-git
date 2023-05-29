@@ -285,8 +285,8 @@ border-radius: 50px;
 background-color: white; 
 }
 .bio_product_col_one_head{
-    font-size: 50px;
-    font-weight: lighter;
+    font-size: 60px;
+    margin-bottom: 0% !important;  
     
 }
 .bio_product_col_two img{
@@ -2080,14 +2080,14 @@ padding-top: 3%;
     }
     .bio_product_col_one_subhead{
         font-size: 20px;
-        padding-left: 2%;
-        padding-top: 2%;
+      
     }
     .bio_product_col_one_subhead span{
         font-weight: 600;
     }
     .bio_product_col_one_content{
-        padding-top: 3%;
+        padding-top: 0%;
+        text-align: justify;
     }
     .with-love{
         padding-top: 10%;
