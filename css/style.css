@@ -147,13 +147,15 @@ padding-bottom: 0% !important;
 }
 .tab_column_content{
     padding-top: 12%;
-    background-color: #fafafa;
-    margin-right: -8.2% !important; 
- 
+   background-color: #fafafa;
+   
     border-radius: 90px;
     padding: 4%;
     text-align: justify;
    
+}
+#tab-column-space{
+    padding-right: 0% !important;
 }
 .tab_column_content img{
     width: 100%;
@@ -768,7 +770,7 @@ padding-top: 2%;
     padding-top: 5%;
     text-align: justify;
     padding-bottom: 3%;
-   margin-right: -8.2% !important;
+   
 }
 
 
@@ -2655,12 +2657,8 @@ button{
         .environment_container_col_two{
             padding-top: 4%;
         }
-        .res_para{
-            margin-right: -3% !important;
-        }
-        .tab_column_content{
-            margin-right: -3% !important;
-        }
+       
+      
         .what_is_sprout_second_col img{
             width: 160%;
             margin-left: -60%;
@@ -2934,7 +2932,7 @@ button{
         }
         .tab_column_content{
             padding-top: 8%;
-            margin-right: -11.2% !important;
+            
         }
     }
     @media only screen and (max-width: 768px) {
@@ -3010,11 +3008,11 @@ button{
         }
         .res_para {
             margin-left: -4% !important;
-            margin-right: -4% !important;
+           
         }
         .tab_column_content{
             margin-left: -2% !important;
-            margin-right: -2% !important;
+           
             padding-top: 10%;
             padding-bottom: 5%;
         } 
