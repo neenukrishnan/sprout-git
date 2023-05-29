@@ -410,13 +410,14 @@ background-color: white;
     background-color: white;
     padding: 4%;
 }
+/*
 #integration{
     padding: 5%;
-}
+} */
 .we_also_products:hover{
     background-color: #2c7dab;
     color: white;
-    border-radius: 7px;
+    border-radius: 15px;
     padding: 4%;
 }
 .environmet_section{
