@@ -291,6 +291,7 @@ background-color: white;
 }
 .bio_product_col_two img{
     width: 100%;
+    margin-top: -15% !important;
 }
 .index_with_love .index_wih_love_p{
     font-size: 40px;
@@ -2090,8 +2091,8 @@ padding-top: 3%;
         text-align: justify;
     }
     .with-love{
-        padding-top: 10%;
-        font-size: 40px !important;
+        padding-top: 3%;
+        font-size: 45px !important;
         color: rgb(168,141,106);
         font-weight:bold;
 
@@ -2472,7 +2473,7 @@ font-weight: 600;
   font-size: 13px;
 }
 .plastic-free-content img{
-    width: 40%; 
+    width: 20%; 
    /* margin-left:35%;*/
 }
 
