@@ -2643,6 +2643,9 @@ button{
       
     }
     @media only screen and (min-width:1300px){
+        .environment_container_col_two{
+            padding-top: 4%;
+        }
         .res_para{
             margin-right: -3% !important;
         }
