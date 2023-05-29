@@ -1132,7 +1132,7 @@ padding-bottom: 2%;
 /*product*/
 
 .product_list{
-    margin-top: 10%;
+    margin-top: 12%;
     background-color: white;
     padding-left: 2%;
     padding-right: 2%;
@@ -1168,7 +1168,7 @@ padding-bottom: 2%;
   }
 
 .biodegradable{
-    font-size: 67px;
+    font-size: 45px;
     font-weight: bolder;
     color: transparent;
     background-image: url('../images/green_texture.png');
@@ -2566,8 +2566,8 @@ font-weight: 600;
 }
 .product_our{
     color: rgb(168,141,106);
-    font-size: 80px !important;
-    font-weight: bold;
+    font-size: 45px !important;
+    font-weight: bolder;
 }
 .coffecups-section{
     margin-top: 4%;
