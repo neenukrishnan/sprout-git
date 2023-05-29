@@ -2003,8 +2003,8 @@ padding-top: 3%;
     }
   
     .social-icon{
-        padding-left: 4%;
-      font-size: 12px;
+        
+      font-size: 16px;
     }
     .social-icon i{
         padding-right: 4%;
@@ -2026,7 +2026,7 @@ padding-top: 3%;
     
     .sprout-col-what-content{
         font-size: 16px !important;
-        text-align: justify;
+        text-align: justify !important; 
     }
     .sprout-col-what-content span{
         font-weight: bold !important;
