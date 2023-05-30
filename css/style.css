@@ -101,7 +101,9 @@ background-color: white;
     color:white !important;
    padding-left: 3%;
    padding-right: 3%;
-   border-radius: 20px;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   border-radius: 15px;
 }
 .nav-pills .nav-link.active:hover{
     color: #65bd5a !important;
