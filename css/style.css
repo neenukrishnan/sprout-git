@@ -419,6 +419,8 @@ background-color: white;
     padding-top: 1%;
     background-color: white;
     padding: 4%;
+    border-radius: 15px;
+   
 }
 /*
 #integration{
@@ -428,7 +430,7 @@ background-color: white;
     background-color: #2c7dab;
     color: white;
     border-radius: 15px;
-    padding: 4%;
+    padding: 3%;
 }
 .environmet_section{
     margin-top: .1% !important;
@@ -2629,12 +2631,18 @@ button{
     align-items: center;
     padding-top:8%;
 }
+.biocupcol{
+    padding-right: 2%;
+}
  /* MEDIA QUERY */
 
 
  @media only screen and (min-width:1281px){
     .coffecups-image img{
         width: 68%;
+    }
+    .biocupcol{
+        padding-top: 2%;
     }
  }
 @media only screen and (max-width:1200px){
