@@ -2664,6 +2664,10 @@ button{
 .biocupcol{
     padding-right: 2%;
 }
+.responsibility-images img{
+    width: 100%;
+    margin-left:56%;
+}
  /* MEDIA QUERY */
 
 
