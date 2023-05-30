@@ -809,7 +809,7 @@ padding-top: 2%;
 }
 
 .res_hed{
-    padding-top: 26%;
+    padding-top: 56%;
 }
 
 /*footer*/
@@ -2621,6 +2621,11 @@ button{
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
+}
+
+.own_branded{
+    align-items: center;
+    padding-top:8%;
 }
  /* MEDIA QUERY */
 
