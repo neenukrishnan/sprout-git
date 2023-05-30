@@ -1196,7 +1196,7 @@ padding-bottom: 2%;
 .product_head p{
     font-size: 50px;
     padding-top: 3%;
-    
+    text-align: center;
 }
 .golden img{
     padding-left: 30%;
@@ -1784,11 +1784,15 @@ padding-bottom: 3%;
 }
 
     
+.quck_button_new{
+    padding-left: 40%;
+    margin-left: 10%; 
+    
+}
 .quck_button{
     padding-left: 45%;
+    margin-left: 40%;
 }
-
-
 
 .double_wall{
     background-image: url("../images/double-cup.png");
@@ -2681,6 +2685,9 @@ button{
 .responsibility-images img{
     width: 100%;
     margin-left:56%;
+}
+.bioleafpara{
+    padding-top:10%;
 }
  /* MEDIA QUERY */
 
