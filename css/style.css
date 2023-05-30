@@ -1102,6 +1102,20 @@ padding-bottom: 2%;
     opacity: 1;
     right: 0;
   }
+  #brochure_button:hover{
+    border: none;
+    background-color:#fbd62f;  
+    font-weight: 600;    
+    border-radius: 10px;
+    color: white;
+  }
+  #product-list-download:hover{
+    border: none;
+    background-color:#fbd62f;  
+    font-weight: 600;    
+    border-radius: 10px;
+    color: white;
+  }
 
 .product_range_container{
     margin-top: 2%;
