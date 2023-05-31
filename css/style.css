@@ -3104,7 +3104,7 @@ button{
             margin-top: 12%;
         }
         .res_hed{
-            padding-top: 0% !important;
+            padding-top: 45% !important;
         }
         .bio_product_col_one_head {
             font-size: 40px;
@@ -3446,7 +3446,7 @@ button{
     }
     @media only screen and (max-width: 713px) {
         .tab_content_section_what_we_do{
-            margin-top: 16%;
+            margin-top: 21%;
            
         }
         .contact_section_new {
