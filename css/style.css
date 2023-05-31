@@ -443,12 +443,12 @@ background-color: white;
 .brand_container{
     background-color: white;
     margin-top:    1%;
-    margin-bottom:  1%;
+    
     margin-right: 7%;
     margin-left: 7%;
     border-radius: 40px;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 0%;
    
 }
 
@@ -2686,8 +2686,14 @@ button{
     width: 100%;
     margin-left:56%;
 }
+.res_env{
+    padding-top: 2%;
+}
 .bioleafpara{
     padding-top:10%;
+}
+#brand-pargraph{
+    padding-bottom: 6% ;
 }
  /* MEDIA QUERY */
 
@@ -3055,7 +3061,7 @@ button{
             width: 19%;
         }
         .tab_column_tab {
-            padding-top: 15%;
+            padding-top: 85%;
         }
         .tab_content_heading {
             font-size: 31px;
@@ -3290,6 +3296,25 @@ button{
     .sustainable_column{
         width: -webkit-fill-available !important;
     }
+    .why-us-container .row .col-3{
+        width: -webkit-fill-available !important;
+    }
+    #index_love_products_row .col-lg-3 img{
+        width: 100% !important;
+    }
+    #product_next_row .col-lg-3 img{
+        width: 100% !important;
+  }
+  .environment_container_col_two_head_brand{
+        font-size: 50px;
+  }
+  .environment_container_col_two_head{
+    font-size: 39px;
+  }
+  #tab-column-space {
+    padding-right: 0% !important;
+    width: -webkit-fill-available !important ;
+}
     }
     @media only screen and (max-width:767px){
         .what_is_sprout_second_col{
@@ -3307,10 +3332,13 @@ button{
         #oBack::first-letter{  
             padding-right: 3.1%;
         }
+        .earth-col {
+            padding-right: 0% !important;
+        }
         .earth-col img {
-            width: 60%;
+            width: 100%;
             padding-top: 0%;
-            margin-left: 20%;;
+          
         }
         .sprout-col-what {
             font-size: 31px;
