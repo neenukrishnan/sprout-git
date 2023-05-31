@@ -448,16 +448,14 @@ background-color: white;
     margin-left: 7%;
     border-radius: 40px;
     padding-top: 3%;
-    padding-bottom: 0%;
+    padding-bottom: 0% !important;
    
 }
 
 .brand_container_col_one img{
     width:100% ;
 }
-.brand_container_col_two{
-    padding-top: 3%;
-}
+
 
 .environment_container{
     background-color: white;
