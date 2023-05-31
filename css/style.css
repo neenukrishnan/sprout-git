@@ -950,7 +950,7 @@ font-weight: bold;
 
 /* product_detail page */
 .product_detail_section{
-margin-top: 11%;
+margin-top: 12%;
 background-color: white;
 margin-left: .5%;
 margin-right: .5%;
@@ -3952,8 +3952,9 @@ padding-right: 5%;
         font-size: 19px;
 }
 }
+
 .imp_date{
-    padding-top: 2%;
+    padding-top: 20% !important;
 }
 .certificate_blog{
    background-color: white;
