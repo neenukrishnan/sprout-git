@@ -1736,7 +1736,7 @@ line-height: 16px;
 }
 .social_qr_icon{
     margin-top: 5%;
-    padding-left: 3%;
+    padding-left: 13% !important;
     font-size: 20px;
   
 }
@@ -1894,7 +1894,7 @@ padding-bottom: 3%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    padding-bottom: 3%;
+    padding-bottom: 3.5%;
    }
    .impact_on_environment_bwl{
     background-image: url(../images/food-container-card.png);
@@ -2693,6 +2693,7 @@ button{
 #brand-pargraph{
     padding-bottom: 6% ;
 }
+
  /* MEDIA QUERY */
 
 
