@@ -70,32 +70,35 @@
             <div class="row form_row">    
                 <p class="form_head">Our friendly team would love to hear from you!</p>            
                 <div class="col-md-9">
-                    <form action="">
+                    <form action="contactaction.php" method="post">
                        
                   <div class="container">
                     <div class="row">
                         <div class="col-md-6 contact_form">
-                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="First Name" name="firstname" id="firstname" required
+                            onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || event.charCode == 32">
                         </div>
                         <div class="col-md-6 contact_form">
-                            <input type="text" placeholder="Last Name" class="name_mobile_input">
+                            <input type="text" placeholder="Last Name" class="name_mobile_input" name="lastname" id="lastname" required
+                            onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || event.charCode == 32">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 contact_form">
-                            <input type="email" placeholder="Email ID">
+                            <input type="email" placeholder="Email ID" name="email" id="email" required>
                         </div>
                        
                     </div>
                     <div class="row">
                        
                         <div class="col-md-12 contact_form">
-                            <input type="text" placeholder="Phone Number" class="name_mobile_input">
+                            <input type="text" name="phone" id="phone" placeholder="Phone Number" class="name_mobile_input" required
+                            onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))">
                         </div>
                     </div>
 
                     <div class="row contact_form">
-                        <textarea name="" id="" cols="3" rows="4" placeholder="Message"></textarea>                       
+                        <textarea  cols="3" rows="4" placeholder="Message" name="message" id="message" required></textarea>                       
                     </div>
                     <div class="row contact_form">
                         <button type="submit" class="product_specification_button">Submit</button>             
@@ -152,7 +155,7 @@
                       <div class="container contact_card_three">
                         
                         <div class="row">
-                          <p class="contact_card_heading">Visit Us</p>
+                          <p class="contact_card_heading-visit">Visit Us</p>
 
                           <div class="col-md-2"><i class="fa-solid fa-location-dot" id="location_image"></i></div>
                           <div class="col-md-10">

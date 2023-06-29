@@ -349,7 +349,7 @@ background-color: white;
 }
 .index_love_products_column_seven img{
     border-radius: 19px;
-    width: 120%;
+    width: 100%;
     
     
 }
@@ -360,10 +360,10 @@ background-color: white;
     margin-top: 5% !important;
 }
 .product_love_products_column_two img{
-    width: 104%;    
+    width: 100%;    
 }
 .product_love_products_column_seven img{
-    width: 180%; 
+    width: 100%; 
 }
 .specification_page_card img{
     width: 100%;
@@ -377,7 +377,7 @@ background-color: white;
     font-size: 19px;
   
    
-    background-color: white;  
+    
    padding: 3%;
    font-weight: 600;
 }
@@ -948,7 +948,7 @@ font-weight: bold;
 
 /* product_detail page */
 .product_detail_section{
-margin-top: 12%;
+margin-top: 12% !important;
 background-color: white;
 margin-left: .5%;
 margin-right: .5%;
@@ -964,7 +964,7 @@ padding-bottom: 2%;
     font-size: 40px;
     font-weight:100;
     color: rgb(168, 141, 106);
-    font-weight: 500;
+    font-weight: bold;
 }
 .product_detail_head span{
    
@@ -998,7 +998,7 @@ padding-bottom: 2%;
     line-height: 17px;
 }
 .specification_image {
-    width: 70% !important;
+    width: 72% !important;
    
 }
 #banana_leaf_image{
@@ -1319,7 +1319,7 @@ padding-bottom: 2%;
    
 }
 .greenpack{
-    margin-top: 3%;
+   
     padding-top: 5%;
     background-color: #fafafa;
     border-radius: 90px;
@@ -1377,7 +1377,7 @@ padding-top: 12% !important;
     padding-bottom: 5%; 
 }
 .biodegradable_paper_bags{
-    margin-top: 3%;
+    
     padding-top: 5%;
     background-color: #fafafa;
     border-radius: 90px;
@@ -1431,7 +1431,7 @@ padding-top: 12% !important;
     padding-top: 3% !important;  
 }
 .Paper_Banana_Leaf{
-    margin-top: 3%;
+   
     padding-top: 5%;
     background-color: #fafafa;
     border-radius: 90px;
@@ -1688,11 +1688,17 @@ padding:8% ;
     background-position: center;
     color: white;
     padding:8% ;
+    margin-top: -4% !important;
         
 }
 .contact_card_heading{
     font-weight: 900;
     text-align: center;margin-bottom: 2% !important;
+}
+.contact_card_heading-visit{
+    font-weight: 900;
+    text-align: center;margin-bottom: 2% !important; 
+    padding-top: 3%!important;
 }
 .contact_card_one .col-md-4{
     text-align: center;    
@@ -1843,6 +1849,12 @@ padding-bottom: 3%;
 }
 .sprout_envrmnt_containers{
     padding-top:33%;
+    padding-left: 53%;
+    color: white;
+    font-weight: bold;
+}
+.sprout_envrmnt_containers_one{
+    padding-top:29%;
     padding-left: 53%;
     color: white;
     font-weight: bold;
@@ -2649,7 +2661,7 @@ button{
     width: 100%;
 }
 .sustainable-para{
-    padding-top: 5%;
+    padding-top: 12%;
 }
 .process-container{
     margin-top: 5%;
@@ -2682,7 +2694,7 @@ button{
 }
 .responsibility-images img{
     width: 100%;
-    margin-left:56%;
+   /* margin-left:56%; */
 }
 .res_env{
     padding-top: 2%;
@@ -4204,6 +4216,8 @@ transform: translateY(-50%);
 }
 #chinnu{
     background-image: url(../images/card-chinnu.png);
+    margin-left:2%;
+
 }
 
 .brand-card{
@@ -4317,4 +4331,15 @@ transform: translateY(-50%);
 }
 .article{
     margin-top: 10%;
+}
+
+
+
+/*New 27-jun */
+.productImage img{
+width: 100%;
+}
+.seeRange img{ 
+    width: 100%;
+
 }
