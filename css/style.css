@@ -3023,6 +3023,15 @@ button{
         }
     }
     @media only screen and (max-width: 768px) {
+        ..bio_product_col_one{
+            padding-top: 6%;
+        }
+        .hidden{
+            display: none;
+        }
+        .Reassuring{
+            padding-right: 5% !important;
+        }
         .recognizable_three{
             width: 100%;
             margin-left: 0%;
@@ -4308,6 +4317,12 @@ transform: translateY(-50%);
     .newspage img{
         width: 100%;
     }
+    .why_index_new {
+        text-align: center;
+    }
+    .cards-contents {
+        padding-left: 0%;
+    }
 
 }
 
@@ -4346,10 +4361,17 @@ width: 100%;
 
 @media only screen and (max-width: 541px) {
     .banner-button{
-        margin-left: 15% !important;
+        margin-left: 0% !important;
     }
     .social-icon {
        
         margin-left:14%;
+}
+.with-love {
+    padding-top: 3%;
+    font-size: 32px !important;
+}
+.bio_product_col_one_head {
+    font-size: 22px !important;
 }
 }
