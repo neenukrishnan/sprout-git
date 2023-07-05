@@ -2706,7 +2706,9 @@ button{
 #brand-pargraph{
     padding-bottom: 2% ;
 }
-
+.show{
+    display: none;
+}
  /* MEDIA QUERY */
 
 
@@ -3029,6 +3031,9 @@ button{
         }
         .hidden{
             display: none;
+        }
+        .show{
+            display: block;
         }
         .Reassuring{
             padding-right: 5% !important;
