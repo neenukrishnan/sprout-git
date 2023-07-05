@@ -2656,6 +2656,7 @@ button{
 
 .sub-heading{
     font-weight: bold;
+    text-align: left;
 }
 .brand_card_container img{
     width: 100%;
@@ -3023,7 +3024,7 @@ button{
         }
     }
     @media only screen and (max-width: 768px) {
-        ..bio_product_col_one{
+        .bio_product_col_one{
             padding-top: 6%;
         }
         .hidden{
@@ -3102,10 +3103,7 @@ button{
             width: -webkit-fill-available !important;
             margin-left: 0% !important;
         }
-        .res_para {
-            margin-left: -4% !important;
-           
-        }
+       
         .tab_column_content{
             margin-left: -2% !important;
            
